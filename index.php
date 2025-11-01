@@ -29,7 +29,11 @@
             <ul>
                 <li>
                     <h3>Classic Woodfire Pepperoni</h3>
-                    <p>A Pepperonni Pizza with </p>
+                    <p>A Pepperonni Pizza, baked in our woodfire ovens. A homemade taste with love.</p>
+                </li>
+                <li>
+                    <h3></h3>
+                    <p></p>
                 </li>
             </ul>
         </section>

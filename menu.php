@@ -10,6 +10,8 @@
     </head>
     <body>
         <header>
+            <img src="images/pizza.svg" height="200" width="200" alt="Pizza" />
+            <h1>Menu</h1>
             <?php
             include("includes/nav.php");
             ?>

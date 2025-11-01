@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>The Meadough Pizzaria | Menu</title>
+        <title>The Meadough Pizzaria | Homepage</title>
         <meta charset="utf-8" />
         <meta name="author" content="Cameron Yon-Vachon" />
-        <meta name="description" content="The Menu for The Meadough Pizzaria" />
+        <meta name="description" content="Homepage for The Meadough Pizzaria" />
         <link rel="shortcut icon" href="images/pizza.svg" type="image/x-icon" />
         <link rel="stylesheet" href="styles/styles.css" />
     </head>
@@ -14,5 +14,4 @@
             include("includes/nav.php");
             ?>
         </header>
-        <p>hello :3</p>
     </body>

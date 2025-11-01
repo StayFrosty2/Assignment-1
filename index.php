@@ -13,13 +13,9 @@
             <img src="images/pizza.svg" height="200" width="200" alt="Pizza" />
             <h1>The Meadough Pizzaria</h1>
             <h2>Family owned and operated since 2014</h2>
-            <nav>
-                <ul>
-                    <li><a href="index.html" title="Homepage">Home</a></li>
-                    <li><a href="menu.php" title="Order Here">Menu</a></li>
-                    <li><a href="about.html" title="About us">About Us</a></li>
-                </ul>
-            </nav>
+            <?php
+	        include("includes/nav.php");
+            ?>
         </header>
         <section>
             <h2>Locations</h2>

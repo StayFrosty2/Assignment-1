@@ -1,15 +1,19 @@
 @charset "UTF-8";
 
-
 * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: rgb(207, 254, 208);
+    background-color: antiquewhite;
+}
+
+html {
+    border: 10px solid rgb(105, 34, 34);
 }
 
 header {
-    margin: 1in;
     text-align: center;
-    text-size-adjust: 200%;
+    padding-top: 10px;
+    margin: auto;
+    max-width: 960px;
 }
 
 h1 {
@@ -21,3 +25,27 @@ header h1, h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+nav ul {
+    position: relative;
+    right: 2%;
+    list-style-type: none;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+	text-decoration: underline;
+    color: black;
+}
+
+section {
+    padding-bottom: 10px;
+}

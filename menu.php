@@ -22,7 +22,9 @@
             <p>hello :3</p>
         </main>
         <footer>
-            <img src="../images/animator-pizzaria.svg" height="135px" width="417px" alt="Pizzaria Logo" />
+            <?php
+            include("includes/copyright.php");
+            ?>
         </footer>
     </body>
 </html>

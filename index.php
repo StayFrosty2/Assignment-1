@@ -21,8 +21,11 @@
             <section>
                 <h2>Locations</h2>
                 <ul>
-                    <li>Barrie, 402 Undermeadow Dr</li>
-                    <li>Penetanguishine, 54 Yonc Ave</li>
+                    <li><p>Barrie, 402 Undermeadow Dr</p>
+                    <img src="images/pizzaria 1.png" height="512" width="512" alt="Barrie Location" /></li>
+
+                    <li><p>Penetanguishine, 54 Yonc Ave</p>
+                    <img src="images/the meadough resturant.png" height="384" width="512" alt="Penetanguishine Location" /></li>
                 </ul>
             </section>
             <section>
@@ -30,14 +33,17 @@
                 <ul>
                     <li>
                         <h3>Classic Medium Woodfire Pepperoni: $10.20</h3>
+                        <img src="images/pepperoni-pizza.svg" height="200" width="200" alt="Pepperoni Pizza" />
                         <p>A Pepperonni Pizza, baked in our woodfire ovens. A homemade taste with <em>lots</em> of love.</p>
                     </li>
                     <li>
                         <h3>Deluxe BBQ Chicken: $18.99</h3>
+                        <img src="images/bbq-pizza.svg" height="200" width="200" alt="BBQ Pizza" />
                         <p>The biggest and bestest we can make, rotisserie styled shredded chicken and red pepper, drizzled in our homemade buffalo-style BBQ sauce.</p>
                     </li>
                     <li>
                         <h3>Specialty Cheesy Breadsticks: $5.45</h3>
+                        <img src="images/breadsticks.svg" height="150" width="200" alt="Breadsticks" />
                         <p>A recipe past down through the smith family for decades, these breadsticks have generations worth of tests and a number of 5 star reviewers (and not all just our aunts and uncles!)</p>
                     </li>
                     <li>
@@ -50,7 +56,9 @@
             </section>
         </main>
         <footer>
-            <img src="../images/animator-pizzaria.svg" height="135px" width="417px" alt="Pizzaria Logo" />
+            <?php
+            include("includes/copyright.php");
+            ?>
         </footer>
     </body>
 </html>

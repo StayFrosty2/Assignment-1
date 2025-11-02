@@ -49,6 +49,6 @@
         </section>
     </body>
     <footer>
-    <img href="images/animator-pizzaria.png" alt="Pizzaria Logo" height="135px" width="417px"/>
+    <img src="images/animator-pizzaria.png" height="135px" width="417px" alt="Pizzaria Logo" />
     </footer>
 </html>

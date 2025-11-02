@@ -18,9 +18,15 @@
             ?>
             <h1>About Us</h1>
         </header>
-        <section>
-            <h2>Who we are</h2>
-            <h3>Jayda Smith</h3>
-            <p></p>
-        </section>
+        <main>
+            <section>
+                <h2>Who we are</h2>
+                <h3>Jayda Smith</h3>
+                <p></p>
+            </section>
+        </main>
+        <footer>
+            <img src="../images/animator-pizzaria.svg" height="135px" width="417px" alt="Pizzaria Logo" />
+        </footer>
     </body>
+</html>

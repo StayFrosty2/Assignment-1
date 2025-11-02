@@ -93,3 +93,10 @@ section li{
 em {
     text-decoration: underline;
 }
+
+footer {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}

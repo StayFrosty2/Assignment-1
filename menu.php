@@ -18,5 +18,11 @@
             ?>
             <h1>Menu</h1>
         </header>
-        <p>hello :3</p>
+        <main>
+            <p>hello :3</p>
+        </main>
+        <footer>
+            <img src="../images/animator-pizzaria.svg" height="135px" width="417px" alt="Pizzaria Logo" />
+        </footer>
     </body>
+</html>

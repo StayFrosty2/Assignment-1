@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+/* Finally got everything to center, this website helped a bunch: https://www.w3schools.com/css/css_align.asp
+
+The block of css I used from this website is:
+
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
+*/
+
+
 * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: antiquewhite;
@@ -17,35 +28,68 @@ header {
 }
 
 h1 {
-    text-transform: uppercase;
     text-shadow: 1px 1px 3px olivedrab;
+}
+
+h1, h2{
+    text-transform: uppercase;
 }
 
 header h1, h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+nav {
+    border: 5px solid darkolivegreen;
+    background-color: cornflowerblue;
+}
+
 nav ul {
-    position: relative;
-    right: 2%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
     list-style-type: none;
 }
 
-nav a:link {
+nav li{
+    padding: 5px;
+}
+
+a:link {
     text-decoration: none;
     color: black;
 }
 
-nav a:visited {
+a:visited {
     text-decoration: none;
     color: black;
 }
 
-nav a:hover{
+a:hover{
 	text-decoration: underline;
     color: black;
 }
 
 section {
     padding-bottom: 10px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+section h2{
+    text-align: center;
+}
+
+section ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+section li{
+    padding-bottom: 10px;
+}
+
+em {
+    text-decoration: underline;
 }

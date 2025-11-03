@@ -292,7 +292,7 @@
                 <fieldset>
                     <div>
                         <label>Name on Card: </label>
-                        <input type="text" name="first" id="first" required />
+                        <input type="text" name="name" id="name" required />
                     </div>
                     <div>
                         <label for="address">Address: </label>
@@ -327,7 +327,6 @@
                         <input type="radio" name="store" id="none" value="none"/>
                     </div>
                 </fieldset>
-
                 <button type="reset">Reset</button> <button type="submit">Submit</button>
             </form>
         </main>

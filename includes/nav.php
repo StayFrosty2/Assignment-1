@@ -1,3 +1,5 @@
+<!-- Section is for navigation menu -->
+
 <nav>
     <ul>
          <li><a href="index.php" title="Homepage">Home</a></li>

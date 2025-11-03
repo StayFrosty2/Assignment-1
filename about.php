@@ -20,9 +20,20 @@
         </header>
         <main>
             <section>
-                <h2>Who we are</h2>
+                <h2>The Smiths</h2>
                 <h3>Jayda Smith</h3>
-                <p></p>
+                <p>Mother of 3, Head Chef at Penetanguishine location</p>
+                <h3>Jordan Smith</h3>
+                <p>Father to 3, loving husband, Head of Delivery at Penetanguishine location, number 1 supporter</p>
+                <h3>Michael Smith</h3>
+                <p>Eldest Son, Chef and Head of Delivery at the Barrie location</p>
+                <h3>Tina Smith</h3>
+                <p>Middle Child, Sister, Head Chef at Barrie location</p>
+                <h3>Timmy Smith</h3>
+                <p>Youngest Child, too young to touch the ovens yet</p>
+
+                <h2><em>And all the lovely staff at both our locations, helping out behind the scenes!</em></h2>
+                <p>Huxley Point, George Marshall, Violet Russell, Aaliyah Boyd, Mariam Todd, Lyonel Daniel, Jaynie Bass, Bobby Marshton</p>
             </section>
         </main>
         <footer>

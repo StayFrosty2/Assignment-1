@@ -1,4 +1,4 @@
-<!-- Section is for the header of all php files that are not includes-->
+<!-- Section is for the header of all php files that are not includes, Pizza Image and Company Name and Tagline-->
 
 <img src="images/pizza.svg" height="200" width="200" alt="Pizza" />
 <h1>The Meadough Pizzaria</h1>

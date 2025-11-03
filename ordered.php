@@ -10,6 +10,7 @@
     </head>
     <body>
         <header>
+            <!-- Top of the page -->
             <?php
             include("includes/logo.php");
             ?>
@@ -18,6 +19,7 @@
             ?>
         </header>
         <main>
+            <!-- Customer Order info displays here (would be more complex but don't know how to code/markup in php properly or us JavaScript) -->
         <?php
         $name = $_GET["name"];
 
@@ -25,6 +27,7 @@
         ?>
         </main>
         <footer>
+            <!-- Copyright Info -->
             <?php
             include("includes/copyright.php");
             ?>

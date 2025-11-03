@@ -10,6 +10,7 @@
     </head>
     <body>
         <header>
+            <!-- Top of the page -->
             <?php
             include("includes/logo.php");
             ?>
@@ -19,6 +20,9 @@
             <h1>Menu</h1>
         </header>
         <main>
+            <!-- Section for Customer Orders -->
+
+            <!-- Pepperoni Pizza -->
             <form id="order" action="ordered.php" method="get">
                 <img src="images/pepperoni-pizza.svg" height="300" width="300" alt="Pepperoni Pizza" />
                 <h3>Classic Woodfire Pepperoni</h3>
@@ -41,6 +45,7 @@
 
                 <p>--------------------------------------</p>
 
+                <!-- Cheese Pizza -->
                 <img src="images/cheese-pizza.svg" height="300" width="300" alt="Cheese Pizza" />
                 <h3>Four Cheese Pizza</h3>
                 <input type="checkbox" name="cheese" id="cheese" value="cheese" />
@@ -62,6 +67,7 @@
 
                 <p>--------------------------------------</p>
 
+                <!-- BBQ Pizza -->
                 <img src="images/bbq-pizza.svg" height="300" width="300" alt="BBQ Pizza" />
                 <h3>Deluxe BBQ Chicken</h3>
                 <input type="checkbox" name="bbq" id="bbq" value="bbq" />
@@ -82,6 +88,7 @@
                 
                 <p>--------------------------------------</p>
 
+                <!-- Hawaiian Pizza -->
                 <img src="images/hawaiian-pizza.svg" height="300" width="300" alt="Hawaiian Pizza" />
                 <h3>Mozzerella Pepperoni Hawaiian Medley</h3>
                 <input type="checkbox" name="hawaiian" id="hawaiian" value="hawaiian" />
@@ -102,6 +109,7 @@
                 <input type="text" name="hawaiianamount" id="hawaiianamount" />
                 <p>--------------------------------------</p>
 
+                <!-- First Build your own Pizza -->
                 <img src="images/pizza.svg" height="300" width="300" alt="Generic Pizza" />
                 <h3><em>Build your own!</em></h3>
                 <input type="checkbox" name="byo1" id="byo1" value="byo1" />
@@ -195,6 +203,7 @@
 
                 <p>--------------------------------------</p>
 
+                <!-- Second Build your own Pizza -->
                 <img src="images/pizza.svg" height="300" width="300" alt="Generic Pizza" />
                 <h3><em>Build your own!</em><br><small>(Max of 2 Build your own pizza types)</small></h3>
                 <input type="checkbox" name="byo2" id="byo2" value="byo2" />
@@ -288,6 +297,7 @@
 
                 <p>--------------------------------------</p>
 
+                <!-- Payment Section -->
                 <h3>Payment and Order Info</h3>
                 <fieldset>
                     <div>
@@ -331,6 +341,7 @@
             </form>
         </main>
         <footer>
+            <!-- Copyright Info -->
             <?php
             include("includes/copyright.php");
             ?>

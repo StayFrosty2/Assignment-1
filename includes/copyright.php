@@ -1,4 +1,4 @@
-<!-- Section is for the footer of all php files that are not includes-->
+<!-- Section is for the footer of all php files that are not includes, Copyright information and Logo-->
 
 <img src="../images/animator-pizzaria.svg" height="135px" width="417px" alt="Pizzaria Logo" />
 <!-- Image above drawn by my friend VapsterVap (@040_j on Discord) -->

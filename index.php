@@ -10,6 +10,7 @@
     </head>
     <body>
         <header>
+            <!-- Top of the page -->
             <?php
             include("includes/logo.php");
             ?>
@@ -18,6 +19,7 @@
             ?>
         </header>
         <main>
+            <!-- Store Locations -->
             <section>
                 <h2>Locations</h2>
                 <p>Barrie, 402 Undermeadow Dr</p>
@@ -27,6 +29,7 @@
                 <img src="images/the meadough resturant.png" height="384" width="512" alt="Penetanguishine Location" />
                 <!-- Image above drawn by my friend VapsterVap (@040_j on Discord) -->
             </section>
+            <!-- Popular Items -->
             <section>
                 <h2>Popular Items</h2>
                 <h3>Classic Medium Woodfire Pepperoni: $10.20</h3>
@@ -45,6 +48,7 @@
             </section>
         </main>
         <footer>
+            <!-- Copyright Info -->
             <?php
             include("includes/copyright.php");
             ?>

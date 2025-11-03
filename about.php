@@ -10,6 +10,7 @@
     </head>
     <body>
         <header>
+            <!-- Top of the page -->
             <?php
             include("includes/logo.php");
             ?>
@@ -20,15 +21,21 @@
         </header>
         <main>
             <section>
+                <!-- Info on the people who work in both stores -->
                 <h2>The Smiths</h2>
+
                 <h3>Jayda Smith</h3>
                 <p>Mother of 3, Head Chef at Penetanguishine location</p>
+
                 <h3>Jordan Smith</h3>
                 <p>Father to 3, loving husband, Head of Delivery at Penetanguishine location, number 1 supporter</p>
+
                 <h3>Michael Smith</h3>
                 <p>Eldest Son, Chef and Head of Delivery at the Barrie location</p>
+
                 <h3>Tina Smith</h3>
                 <p>Middle Child, Sister, Head Chef at Barrie location</p>
+
                 <h3>Timmy Smith</h3>
                 <p>Youngest Child, too young to touch the ovens yet</p>
 
@@ -37,6 +44,7 @@
             </section>
         </main>
         <footer>
+            <!-- Copyright Info -->
             <?php
             include("includes/copyright.php");
             ?>

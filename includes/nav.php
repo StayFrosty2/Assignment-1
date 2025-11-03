@@ -1,5 +1,4 @@
-<!-- Section is for navigation menu -->
-
+<!-- Section is for navigation menu between parts of the website-->
 <nav>
     <ul>
          <li><a href="index.php" title="Homepage">Home</a></li>

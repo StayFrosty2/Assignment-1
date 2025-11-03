@@ -288,6 +288,46 @@
 
                 <p>--------------------------------------</p>
 
+                <h3>Payment and Order Info</h3>
+                <fieldset>
+                    <div>
+                        <label>Name on Card: </label>
+                        <input type="text" name="first" id="first" required />
+                    </div>
+                    <div>
+                        <label for="address">Address: </label>
+                        <input id="address" type="text" name="address" required />
+                    </div>
+                    <div>
+                        <label for="card">Card Number: </label>
+                        <input type="text" name="card" id="card" required />
+                    </div>
+                    <div>
+                        <label for="expire">Card Expiry: </label>
+                        <input type="text" name="expire" id="expire" required />
+                    </div>
+                    <div>
+                        <label for="cvc">Card CVC: </label>
+                        <input type="text" name="cvc" id="cvc" required />
+                    </div>
+                    <div>
+                        <p>Pickup or Delivery?</p>
+                        <label for="pickup">Pickup in Store</label>
+                        <input type="radio" name="getOrder" id="pickup" value="pickup" required />
+                        <label for="delivery">Deilvery</label>
+                        <input type="radio" name="getOrder" id="delivery" value="delivery" />
+                    </div>
+                    <div>
+                        <p>Which Store (For Pickup Only)</p>
+                        <label for="barrie">Barrie, 402 Undermeadow Dr</label>
+                        <input type="radio" name="store" id="barrie" value="barrie" required/>
+                        <label for="penetang">Penetanguishine, 54 Yonc Ave</label>
+                        <input type="radio" name="store" id="penetang" value="penetang"/>
+                        <label for="none">I am not doing pickup</label>
+                        <input type="radio" name="store" id="none" value="none"/>
+                    </div>
+                </fieldset>
+
                 <button type="reset">Reset</button> <button type="submit">Submit</button>
             </form>
         </main>

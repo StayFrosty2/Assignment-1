@@ -22,8 +22,10 @@
                 <h2>Locations</h2>
                 <p>Barrie, 402 Undermeadow Dr</p>
                 <img src="images/pizzaria 1.png" height="512" width="512" alt="Barrie Location" />
+                <!-- Image above contains art drawn by my friend VapsterVap (@040_j on Discord) -->
                 <p>Penetanguishine, 54 Yonc Ave</p>
                 <img src="images/the meadough resturant.png" height="384" width="512" alt="Penetanguishine Location" />
+                <!-- Image above drawn by my friend VapsterVap (@040_j on Discord) -->
             </section>
             <section>
                 <h2>Popular Items</h2>

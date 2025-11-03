@@ -78,3 +78,7 @@ select, optgroup, option {
 input{
     background-color: white;
 }
+
+fieldset label, fieldset input{
+    padding-bottom: 5px;
+}
